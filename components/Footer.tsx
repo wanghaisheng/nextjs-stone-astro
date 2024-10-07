@@ -114,7 +114,30 @@ export default function Footer() {
               Stone is a premium Astro theme specially designed for Business, Marketing, SaaS and
               Startup websites.
             </p>
-            <p className="text-primary-950/70 dark:text-primary-200/70 text-sm">© 2023 Stone</p>
+            <p className="text-primary-950/70 dark:text-primary-200/70 text-sm">
+              &copy; 2023 Stone
+            </p>
+
+            <p className="text-primary-950/70 dark:text-primary-200/70 text-xs">
+              Created by{" "}
+              <Link
+                href="https://github.com/m6v3l9/astro-theme-stone"
+                rel="nofollow noopner"
+                target="_blank"
+                className="font-semibold hover:underline"
+              >
+                m6v3l9
+              </Link>{" "}
+              &amp; writed nextjs by{" "}
+              <Link
+                className="font-semibold hover:underline"
+                target="_blank"
+                rel="nofollow noopner"
+                href="https://www.luas.kr"
+              >
+                luasenvy
+              </Link>
+            </p>
           </div>
 
           <div className="grid max-w-xl flex-1 grid-cols-1 gap-8 sm:grid-cols-3">
