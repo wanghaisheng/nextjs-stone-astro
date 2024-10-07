@@ -15,7 +15,7 @@ export default function ViewTransitionLink({
   const handleTransition = (e: React.MouseEvent<HTMLAnchorElement>) => {
     if (!document?.startViewTransition) return handleClick?.(e);
 
-    const anchor = e.target as HTMLAnchorElement;
+    const anchor = e.currentTarget;
     if (anchor.target !== "_blank") {
       e.preventDefault();
       document.startViewTransition(() => {
