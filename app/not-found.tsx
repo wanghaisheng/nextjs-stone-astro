@@ -1,6 +1,6 @@
-import Link from "next/link";
-
 import DfeaultLayout from "./(default)/layout";
+
+import Link from "@/components/ViewTransitionLink";
 
 export default function NotFoundError() {
   return (
