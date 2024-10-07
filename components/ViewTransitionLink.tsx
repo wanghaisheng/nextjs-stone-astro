@@ -1,8 +1,9 @@
 "use client";
 
 import Link, { type LinkProps } from "next/link";
+import type { AnchorHTMLAttributes } from "react";
 
-export type ViewTransitionLinkProps = React.HTMLAttributes<HTMLAnchorElement> & LinkProps;
+export type ViewTransitionLinkProps = AnchorHTMLAttributes<HTMLAnchorElement> & LinkProps;
 
 export default function ViewTransitionLink({
   onClick: handleClick,
