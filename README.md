@@ -1,3 +1,5 @@
+2024-11-23
+
 # nextjs-stone-astro
 
 [Stone Astro Theme](https://github.com/m6v3l9/astro-theme-stone) for [Next.js](https://nextjs.org/)<sub>(14+ App Router)</sub>
